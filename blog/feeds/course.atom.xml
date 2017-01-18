@@ -365,9 +365,9 @@ container &lt;= mystring
 &lt;p&gt;開始進行範例分配&lt;/p&gt;
 &lt;p&gt;接受使用者輸入&lt;/p&gt;
 &lt;p&gt;利用aler()顯示結果&lt;/p&gt;
-&lt;p&gt;直接列印結果&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W12 Brython 繪圖範例</title><link href="./w12-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-12-02T00:00:00+08:00</published><updated>2016-12-02T00:00:00+08:00</updated><author><name>40523108</name></author><id>tag:,2016-12-02:./w12-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;p&gt;直接列印結果&lt;/p&gt;</summary><category term="Brython"></category></entry><entry><title>W12 Prython</title><link href="./w12-prython.html" rel="alternate"></link><published>2016-12-02T00:00:00+08:00</published><updated>2016-12-02T00:00:00+08:00</updated><author><name>40523108</name></author><id>tag:,2016-12-02:./w12-prython.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-
+&lt;p&gt;心得:&lt;/p&gt;
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -529,7 +529,9 @@ for s in mylist:
     num = num + 1
 &lt;/script&gt;
 
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>40523137</name></author><id>tag:,2016-11-14:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Prython</title><link href="./w10-prython.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>40523137</name></author><id>tag:,2016-11-14:./w10-prython.html</id><summary type="html">&lt;p&gt;Prython 繪圖
+心得:預設畫布canvas的width與height,線的寬度預設為1,設定線段顏色,再利用座標來畫圖,此周還有for迴圈的應用
+&lt;iframe src="https://vimeo.com/199985494" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
@@ -573,8 +575,8 @@ for i in range(10):
     ctx.moveTo(100+i*inc, 100)
     ctx.lineTo(100+i*inc, 200)
 
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
+
+ctx.strokeStyle = "rgb(0, 255, 27)"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
