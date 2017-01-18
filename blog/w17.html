@@ -170,13 +170,13 @@ init_mathjax();
 
         <meta name="author" content="40523137" />
         <meta name="keywords" content="Brython" />
-        <meta name="description" content="2017" />
+        <meta name="description" content="心得: 導入模組 from browser import document from browser import window from browser import timer 為時間模組 import math 為數學模組 moveTo(x,y)定義了線的起點 lineTo(x,y)定義了線的終點 deg = math.pi/180 數學模組中把角度轉換為徑度 timer.set_interval(animate, 20) 20那部份可以影響旋轉速度" />
 
         <meta property="og:site_name" content="2016Fall CPA 課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="W17"/>
         <meta property="og:url" content="./w17.html"/>
-        <meta property="og:description" content="2017"/>
+        <meta property="og:description" content="心得: 導入模組 from browser import document from browser import window from browser import timer 為時間模組 import math 為數學模組 moveTo(x,y)定義了線的起點 lineTo(x,y)定義了線的終點 deg = math.pi/180 數學模組中把角度轉換為徑度 timer.set_interval(animate, 20) 20那部份可以影響旋轉速度"/>
         <meta property="article:published_time" content="2017-01-06" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="Brython" />
@@ -315,7 +315,15 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>2017</p>
+                <p>心得: 導入模組
+from browser import document
+from browser import window
+from browser import timer 為時間模組
+import math 為數學模組</p>
+<p>moveTo(x,y)定義了線的起點
+lineTo(x,y)定義了線的終點</p>
+<p>deg = math.pi/180 數學模組中把角度轉換為徑度</p>
+<p>timer.set_interval(animate, 20) 20那部份可以影響旋轉速度</p>
 
 
 <!-- 導入 Brython 標準程式庫 -->
@@ -366,7 +374,7 @@ def line(x1, y1, x2, y2):
     # 然後畫直線到 (x2, y2) 座標點
     ctx.lineTo(x2, y2)
     # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-    ctx.strokeStyle = "blue"
+    ctx.strokeStyle = "rgb(0, 255, 27)"
     # 實際執行畫線
     ctx.stroke()
     ctx.closePath()
@@ -397,7 +405,7 @@ def animate():
     circle(x1, y1, 5)
     theta += 1
 
-timer.set_interval(animate, 50)
+timer.set_interval(animate, 20)
 </script>
             </div>
             <!-- /.entry-content -->
@@ -424,18 +432,18 @@ timer.set_interval(animate, 50)
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./cp-w15-lian-xi.html">
-                            CP W15 練習
+                        <a href="./w15.html">
+                            W15
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./w14-lian-xi.html">
-                            W14 練習
+                        <a href="./w14.html">
+                            W14
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./w13-lian-xi-2.html">
-                            W13  練習-2
+                        <a href="./w13-b.html">
+                            W13-b
                         </a>
                     </li>
                 </ul>

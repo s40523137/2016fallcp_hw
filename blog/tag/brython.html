@@ -283,7 +283,15 @@ init_mathjax();
 
             <article>
                 <h2><a href="../w17.html">W17</a></h2>
-                <div class="summary"><p>2017</p>
+                <div class="summary"><p>心得: 導入模組
+from browser import document
+from browser import window
+from browser import timer 為時間模組
+import math 為數學模組</p>
+<p>moveTo(x,y)定義了線的起點
+lineTo(x,y)定義了線的終點</p>
+<p>deg = math.pi/180 數學模組中把角度轉換為徑度</p>
+<p>timer.set_interval(animate, 20) 20那部份可以影響旋轉速度</p>
 
                     <a class="btn btn-default btn-xs" href="../w17.html">more ...</a>
                 </div>
@@ -291,15 +299,16 @@ init_mathjax();
             <hr/>
             <article>
                 <h2><a href="../w16-xin-nian-kuai-le.html">W16 新年快樂</a></h2>
-                <div class="summary"><p>2017年元旦快樂</p>
+                <div class="summary"><p>心得:運用random模組random.randint(1,100)產生1至100的亂數,和int(input(":")將input得來的字串透過int改為整數,讓程式有辦法運算,透過按鈕再將其print到網路上</p>
 
                     <a class="btn btn-default btn-xs" href="../w16-xin-nian-kuai-le.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../cp-w15-lian-xi.html">CP W15 練習</a></h2>
-                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
+                <h2><a href="../w15.html">W15</a></h2>
+                <div class="summary"><p>心得:輸入數字後透過程式判斷是否大於10,if和else來表示大於和小於10的結果.</p>
+<!-- 導入 Brython 標準程式庫 -->
 
 <script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
@@ -325,45 +334,37 @@ def compa(e):
     your_input = input("請輸入一個整數!")
     # 如何判斷所輸入的整數比 10 大
 
-    if int(your_input) > 10:
-        c <= "所輸入的整數:" + your_input ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../cp-w15-lian-xi.html">more ...</a>
+    if int(your_input) > 10 ...</script></!--></!--></!-->
+                    <a class="btn btn-default btn-xs" href="../w15.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../w13-lian-xi-2.html">W13  練習-2</a></h2>
-                <div class="summary"><p>將<a herf="http://mde.tw/2016fallcp/course/Python3Programs.txt">
+                <h2><a href="../w13-b.html">W13-b</a></h2>
+                <div class="summary"><p>心得:float可將參數轉換為浮點,float(cdegree)*9/5+32再導入運算過程,才可算出溫度轉換的數字.</p>
+<p>將<a herf="http://mde.tw/2016fallcp/course/Python3Programs.txt">
 http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 整理成brython
 練習:編寫一個可以將適用者輸入的攝氏溫度,轉為華氏溫度</p>
 
-                    <a class="btn btn-default btn-xs" href="../w13-lian-xi-2.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../w13-b.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../w13-lian-xi-1.html">W13  練習-1</a></h2>
-                <div class="summary"><p>將<a herf="http://mde.tw/2016fallcp/course/Python3Programs.txt">
-http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 整理成brython</p>
+                <h2><a href="../w13-a.html">W13-a</a></h2>
+                <div class="summary"><p>心得:html.BR()可讓字串換行</p>
 
-                    <a class="btn btn-default btn-xs" href="../w13-lian-xi-1.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../w13-a.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../w12-prython.html">W12 Prython</a></h2>
-                <div class="summary">
-                    <a class="btn btn-default btn-xs" href="../w12-prython.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../w10-prython.html">W10 Prython</a></h2>
+                <h2><a href="../w10.html">W10</a></h2>
                 <div class="summary"><p>Prython 繪圖
 心得:預設畫布canvas的width與height,線的寬度預設為1,設定線段顏色,再利用座標來畫圖,此周還有for迴圈的應用
-<iframe src="https://vimeo.com/199985494" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+w10影片網址:https://vimeo.com/199985494</p>
 
-                    <a class="btn btn-default btn-xs" href="../w10-prython.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../w10.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -388,18 +389,18 @@ http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 整理成brython</p>
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../cp-w15-lian-xi.html">
-                            CP W15 練習
+                        <a href="../w15.html">
+                            W15
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../w13-lian-xi-2.html">
-                            W13  練習-2
+                        <a href="../w13-b.html">
+                            W13-b
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../w13-lian-xi-1.html">
-                            W13  練習-1
+                        <a href="../w13-a.html">
+                            W13-a
                         </a>
                     </li>
                 </ul>
