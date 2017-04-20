@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>2016Fall CPA 課程網誌 (虎尾科大MDE)</title>
+    <title>2017  網際網路管理 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -170,11 +170,11 @@ init_mathjax();
         <meta name="author" content="40523137" />
 
     <!-- Open Graph tags -->
-        <meta property="og:site_name" content="2016Fall CPA 課程網誌 (虎尾科大MDE)" />
+        <meta property="og:site_name" content="2017  網際網路管理 (虎尾科大MDE)" />
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="2016Fall CPA 課程網誌 (虎尾科大MDE)"/>
+        <meta property="og:title" content="2017  網際網路管理 (虎尾科大MDE)"/>
         <meta property="og:url" content="."/>
-        <meta property="og:description" content="2016Fall CPA 課程網誌 (虎尾科大MDE)"/>
+        <meta property="og:description" content="2017  網際網路管理 (虎尾科大MDE)"/>
 
 
     <!-- Bootstrap -->
@@ -186,7 +186,7 @@ init_mathjax();
     <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
 
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="2016Fall CPA 課程網誌 (虎尾科大MDE) ATOM Feed"/>
+              title="2017  網際網路管理 (虎尾科大MDE) ATOM Feed"/>
 
 <script type="text/javascript" src="http://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="http://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
@@ -248,16 +248,13 @@ init_mathjax();
                 <span class="icon-bar"></span>
             </button>
             <a href="./" class="navbar-brand">
-2016Fall CPA 課程網誌 (虎尾科大MDE)            </a>
+2017  網際網路管理 (虎尾科大MDE)            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
-                            <a href="./category/course.html">Course</a>
-                        </li>
                         <li >
                             <a href="./category/misc.html">Misc</a>
                         </li>
@@ -281,122 +278,10 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./w17.html">W17</a></h2>
-                <div class="summary"><p>心得: 導入模組
-from browser import document
-from browser import window
-from browser import timer 為時間模組
-import math 為數學模組</p>
-<p>moveTo(x,y)定義了線的起點
-lineTo(x,y)定義了線的終點</p>
-<p>deg = math.pi/180 數學模組中把角度轉換為徑度</p>
-<p>timer.set_interval(animate, 20) 20那部份可以影響旋轉速度</p>
+                <h2><a href="./2017-wang-ji-nei-rong-guan-li.html">2017 網際內容管理</a></h2>
+                <div class="summary"><p><font size="10">使用VirtualBox之相關設定介紹.</font></p>
 
-                    <a class="btn btn-default btn-xs" href="./w17.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w16-xin-nian-kuai-le.html">W16 新年快樂</a></h2>
-                <div class="summary"><p>心得:運用random模組random.randint(1,100)產生1至100的亂數,和int(input(":")將input得來的字串透過int改為整數,讓程式有辦法運算,透過按鈕再將其print到網路上</p>
-
-                    <a class="btn btn-default btn-xs" href="./w16-xin-nian-kuai-le.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w15.html">W15</a></h2>
-                <div class="summary"><p>心得:輸入數字後透過程式判斷是否大於10,if和else來表示大於和小於10的結果.</p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下可以執行  Brython 程式 -->
-
-<div id="con"></div>
-
-<script type="text/python3">
-from browser import document as do
-from browser import html
-c = do["con"]
-def compa(e):
-    your_input = input("請輸入一個整數!")
-    # 如何判斷所輸入的整數比 10 大
-
-    if int(your_input) > 10 ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="./w15.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w14.html">W14</a></h2>
-                <div class="summary"><p>心得:運用container&lt;=mystring+html.BR(),來決定要印出何種字串,for i in range(int(mynum)):則是決定會印出幾次,而琪都透過input來輸入.</p>
-<p>以下為第十四週開始的程式練習,要利用 <a href="http://mde.tw/2016fallcp/course/Python3Programs.txt">http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 要整理Brython 的用法.
-
-                    <a class="btn btn-default btn-xs" href="./w14.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w13-b.html">W13-b</a></h2>
-                <div class="summary"><p>心得:float可將參數轉換為浮點,float(cdegree)*9/5+32再導入運算過程,才可算出溫度轉換的數字.</p>
-<p>將<a herf="http://mde.tw/2016fallcp/course/Python3Programs.txt">
-http://mde.tw/2016fallcp/course/Python3Programs.txt</a> 整理成brython
-練習:編寫一個可以將適用者輸入的攝氏溫度,轉為華氏溫度</p>
-
-                    <a class="btn btn-default btn-xs" href="./w13-b.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w13-a.html">W13-a</a></h2>
-                <div class="summary"><p>心得:html.BR()可讓字串換行</p>
-
-                    <a class="btn btn-default btn-xs" href="./w13-a.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w12.html">W12</a></h2>
-                <div class="summary"><p>心得:def函式內容需要縮排,str可將整數轉換為字串,才可與pxArial做結合</p>
-
-                    <a class="btn btn-default btn-xs" href="./w12.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./w10.html">W10</a></h2>
-                <div class="summary"><p>Prython 繪圖
-心得:預設畫布canvas的width與height,線的寬度預設為1,設定線段顏色,再利用座標來畫圖,此周還有for迴圈的應用
-w10影片網址:https://vimeo.com/199985494</p>
-
-                    <a class="btn btn-default btn-xs" href="./w10.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./2016fall-cheng-shi-lian-xi-ti.html">2016Fall 程式練習題</a></h2>
-                <div class="summary"><p>已知截至第六週 2016fallcpa 的分組資料位於倉儲中的 <a href="./../w6_group.txt">w6_group.txt</a>, 而從學校修課系統下載的修課人員名條則為 <a href="./../w6_list.txt">w6_list.txt</a>, 請各組著手練習, 找出尚未納入分組的人員名單, 並研擬如何處置上課一個半月卻尚未進入情況的學員?</p>
-
-                    <a class="btn btn-default btn-xs" href="./2016fall-cheng-shi-lian-xi-ti.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">2016Fall 機械設計主題教學</a></h2>
-                <div class="summary"><p>知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.</p>
-
-                    <a class="btn btn-default btn-xs" href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="./2017-wang-ji-nei-rong-guan-li.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -411,28 +296,8 @@ w10影片網址:https://vimeo.com/199985494</p>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./w17.html">
-                            W17
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w16-xin-nian-kuai-le.html">
-                            W16 新年快樂
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w15.html">
-                            W15
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w14.html">
-                            W14
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./w13-b.html">
-                            W13-b
+                        <a href="./2017-wang-ji-nei-rong-guan-li.html">
+                            2017 網際內容管理
                         </a>
                     </li>
                 </ul>
@@ -440,11 +305,6 @@ w10影片網址:https://vimeo.com/199985494</p>
 
             <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
                 <ul class="list-group" id="categories">
-                    <li class="list-group-item">
-                        <a href="./category/course.html">
-                            <i class="fa fa-folder-open fa-lg"></i> Course
-                        </a>
-                    </li>
                     <li class="list-group-item">
                         <a href="./category/misc.html">
                             <i class="fa fa-folder-open fa-lg"></i> Misc
